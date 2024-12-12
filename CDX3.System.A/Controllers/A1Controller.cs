@@ -6,7 +6,7 @@ using System.Reflection;
 namespace CDX3.System.A.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class A1Controller : ControllerBase
     {  
         [HttpPost]
