@@ -11,9 +11,10 @@ namespace CDX3.System.A.IO
         {
             Output = string.Empty;
         }
+
         public void ConcatenateInputData(Cl_feature_IP ip)
         {
-            Output = $"{ip.user_id} {ip.tenant_code} {ip.system_code} {ip.name}";
+            Output = $"user: {ip.user_id}, tenant: {ip.tenant_code}, system: {ip.system_code}, name: {ip.name}";
         }
     }
 }
