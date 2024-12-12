@@ -1,0 +1,6 @@
+@CDX3.System.A_HostAddress = http://localhost:5056
+
+GET {{CDX3.System.A_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
